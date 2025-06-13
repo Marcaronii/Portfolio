@@ -318,6 +318,19 @@ nav {
   color: #007bff;
   font-weight: 500;
 }
+.project-card {
+  position: relative;
+}
+
+.project-card a::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
 
 
 footer {
